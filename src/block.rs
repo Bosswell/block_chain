@@ -1,5 +1,5 @@
 use std::fmt::{ Formatter, Debug, Result };
-use Hashable;
+use crate::Hashable;
 
 type BlockHash = Vec<u8>;
 
@@ -27,9 +27,9 @@ impl Block {
 
 impl Debug for Block {
     fn fmt(&self, f: &mut Formatter) -> Result {
-        write!(f, "Block [{}]:  at: {} with: {}",
+        write!(f, "Block [{}], hash: {}, at: {} with: {}",
                &self.index,
-               // &hex::encode(&self.hash),
+               &hex::encode(&self.hash),
                &self.timestamp,
                &self.payload,
         )
@@ -37,5 +37,15 @@ impl Debug for Block {
 }
 
 impl Hashable for Block {
+    fn bytes(&self) -> Vec<u8> {
+        let mut bytes = vec![];
 
+        bytes.extend(&self.index.to_be_bytes());
+        bytes.extend(&self.timestamp.to_be_bytes());
+        bytes.extend(&self.prev_block_hash);
+        bytes.extend(&self.nonce.to_be_bytes());
+        bytes.extend(&*self.payload.as_bytes());
+
+        bytes
+    }
 }

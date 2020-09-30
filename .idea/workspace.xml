@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642d9355-6a2f-4a56-9722-83224ee37c88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../translator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/block_chain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/block_chain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primes/primes.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../primes/primes.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../primes/primes.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../primes/primes.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/block.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/block.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashable.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashable.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Cargo.toml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -72,6 +71,7 @@
       <workItem from="1600801705831" duration="2303000" />
       <workItem from="1600852780763" duration="599000" />
       <workItem from="1600891446854" duration="17000" />
+      <workItem from="1601480617030" duration="4080000" />
     </task>
     <servers />
   </component>
@@ -79,13 +79,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600801967141">
+    <state x="555" y="163" width="800" height="707" key="#Plugins" timestamp="1601480804317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="721" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600801967141" />
+    <state x="555" y="163" width="800" height="707" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1601480804317" />
+    <state x="724" y="231" key="#Rust" timestamp="1601483924095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="231" key="#Rust/0.0.1920.1040@0.0.1920.1040" timestamp="1601483924095" />
+    <state x="721" y="322" width="510" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601481315129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="322" width="510" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601481315129" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600801729399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600801729399" />
+    <state x="685" y="359" width="540" height="315" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1601481163846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="359" width="540" height="315" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601481163846" />
   </component>
 </project>
